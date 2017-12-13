@@ -1,0 +1,23 @@
+.table-list {
+  display: flex;
+  flex-direction: column; }
+  .table-list__item {
+    display: flex;
+    flex: 1;
+    margin-bottom: 10px; }
+    .table-list__item__checkbox {
+      margin-right: 10px; }
+    .table-list__item__column {
+      display: flex;
+      flex: 1;
+      flex-direction: column; }
+      .table-list__item__column input {
+        padding: 5px;
+        outline: none;
+        border-radius: 2px;
+        border: 1px solid #bfbfbf;
+        margin-right: 10px; }
+      .table-list__item__column__error-message {
+        color: red;
+        font-size: 11px;
+        text-align: center; }

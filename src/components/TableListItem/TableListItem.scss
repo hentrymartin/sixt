@@ -1,0 +1,29 @@
+.table-list {
+  display: flex;
+  flex-direction: column;
+  &__item {
+    display: flex;
+    flex: 1;
+    margin-bottom: 10px;
+    &__checkbox {
+      margin-right: 10px;
+    }
+    &__column {
+      display: flex;
+      flex: 1;
+      flex-direction: column;
+      input {
+        padding: 5px;
+        outline: none;
+        border-radius: 2px;
+        border: 1px solid #bfbfbf;
+        margin-right: 10px;
+      }
+      &__error-message {
+        color: red;
+        font-size: 11px;
+        text-align: center;
+      }
+    }
+  }
+}

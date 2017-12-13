@@ -1,0 +1,15 @@
+.table-header {
+  display: flex;
+  flex: 1;
+  height: 60px;
+  align-items: center;
+  &__checkbox {
+    margin-right: 10px;
+  }
+  &__column {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    font-size: 12px;
+  }
+}

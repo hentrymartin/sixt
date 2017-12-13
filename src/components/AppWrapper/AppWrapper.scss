@@ -1,0 +1,17 @@
+.app-wrapper {
+  display: flex;
+  flex: 1;
+  max-width: 800px;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  &__validate-btn {
+    width: 200px;
+    background: green;
+    border: transparent;
+    padding: 10px;
+    color: white;
+    outline: none;
+    cursor: pointer;
+  }
+}
